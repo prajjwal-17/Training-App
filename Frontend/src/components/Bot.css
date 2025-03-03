@@ -1,0 +1,39 @@
+.bot-container {
+    padding: 24px;
+    max-width: 400px;
+    margin: auto;
+    margin-top: 20vh;
+    background-color: #BCF4F5;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  input {
+    border: 1px solid #ccc;
+    padding: 8px;
+    width: 90%;
+    margin-top: 8px;
+    border-radius: 4px;
+  }
+  
+  button {
+    margin-top: 16px;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 16px;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .btn-group {
+    display: flex;
+    justify-content: space-between;
+  }
+  

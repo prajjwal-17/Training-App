@@ -1,0 +1,158 @@
+/* General Page Styling */
+.homepage {
+    font-family: Arial, sans-serif;
+    background: #fff;
+    padding: 20px;
+    transition: margin-left 0.3s ease;
+  }
+  
+  .homepage.sidebar-open {
+    margin-left: 250px; /* Adjust this based on sidebar width */
+  }
+  
+  .content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+  }
+  
+  /* Text Section */
+  .text-section {
+    width: 50%;
+  }
+  
+  .trainer-name {
+    color: #ff4d6d;
+    font-weight: bold;
+  }
+  
+  h1 {
+    font-size: 36px;
+    color: #222;
+  }
+  
+  h1 span {
+    text-decoration: underline;
+  }
+  
+  p {
+    color: #666;
+    font-size: 16px;
+  }
+  
+  .buttons {
+    margin-top: 20px;
+  }
+  
+  .primary-btn {
+    background: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .secondary-btn {
+    background: white;
+    color: black;
+    padding: 10px 20px;
+    border: 2px solid black;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  /* Model Box */
+  .model-container {
+    width: 40%;
+  }
+  
+  .model-box {
+    width: 300px;
+    height: 300px;
+    background: #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px dashed #bbb;
+    font-size: 18px;
+  }
+  
+  /* Navbar */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background: white;
+    border-bottom: 1px solid #ddd;
+    transition: margin-left 0.3s ease;
+  }
+  
+  .sidebar-open .navbar {
+    margin-left: 250px; /* Adjust this based on sidebar width */
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .nav-links {
+    display: flex;
+    list-style: none;
+  }
+  
+  .nav-links li {
+    margin: 0 15px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+  
+  .nav-right {
+    display: flex;
+    align-items: center;
+  }
+  
+  .cart-icon {
+    position: relative;
+    font-size: 20px;
+    margin-right: 15px;
+  }
+  
+  .cart-count {
+    position: absolute;
+    top: -5px;
+    right: -10px;
+    background: red;
+    color: white;
+    font-size: 12px;
+    border-radius: 50%;
+    padding: 2px 5px;
+  }
+  
+  .book-class-btn {
+    background: black;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .model-container {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #f5f5f5; /* Light grey background */
+    border-radius: 10px;
+  }
+  

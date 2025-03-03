@@ -1,0 +1,30 @@
+.navbar {
+    transition: all 0.3s ease-in-out;
+}
+
+/* Smooth Hover Effect on Navbar */
+.navbar:hover {
+    background-color: #D9F2B4; /* Light green */
+    border-radius: 60px; /* Slightly rounder */
+    transform: translateX(-50%) scale(1.05); /* Slight zoom effect */
+}
+
+/* Style for Navbar Links */
+.nav-link {
+    margin: 0 15px;
+    color: black;
+    font-weight: bold;
+    font-size: 24px;
+    font-family: "K2D", sans-serif;
+    text-decoration: none;
+    padding: 10px 15px; /* Added padding for better spacing */
+    border-radius: 30px; /* Rounded links */
+    transition: all 0.3s ease-in-out;
+}
+
+/* Link Hover Effect */
+.nav-link:hover {
+    background-color: #D9F2B4; /* Light green */
+    transform: scale(1.1); /* Slight zoom */
+    border-radius: 30px; /* Keep it rounded */
+}

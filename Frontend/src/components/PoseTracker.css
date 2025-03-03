@@ -1,0 +1,72 @@
+.pose-tracker-container {
+    text-align: center;
+    position: relative;
+}
+
+.session-time {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.hidden-video {
+    display: none;
+}
+
+.pose-canvas {
+    border: 2px solid black;
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin-top: 16px;
+}
+
+button {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.start-stop-btn {
+    background-color: #3b82f6;
+}
+
+.start-stop-btn:hover {
+    background-color: #2563eb;
+}
+
+.switch-btn {
+    background-color: #22c55e;
+}
+
+.switch-btn:hover {
+    background-color: #16a34a;
+}
+
+.reports-btn {
+    background-color: #9333ea;
+}
+
+.reports-btn:hover {
+    background-color: #7e22ce;
+}
+
+.test-session-btn {
+    background-color: #6b7280;
+    font-size: 14px;
+}
+
+.test-session-btn:hover {
+    background-color: #4b5563;
+}
+
+.db-status {
+    margin-top: 16px;
+    font-size: 12px;
+    color: #6b7280;
+}
